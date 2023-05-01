@@ -10,8 +10,8 @@ public class Main {
         } else {
             bonus = 0;
         }
-        int y = pay + check + bonus;
-        System.out.println("Итоговый счёт: " + y);
+        int finalСheck = pay + check + bonus;
+        System.out.println("Итоговый счёт: " + finalСheck);
 
     }
 }
