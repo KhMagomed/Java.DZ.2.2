@@ -5,7 +5,7 @@ public class Main {
 
         int bonus;
         if (pay > 1000) {
-            bonus = check + pay / 100;
+            bonus = pay / 100;
             ;
         } else {
             bonus = 0;
